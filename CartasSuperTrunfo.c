@@ -123,7 +123,7 @@ int main() {
   printf("Área: %.2f km² \n", Area2);
   printf("PIB: %.2f bilhões de reais \n", PIB2);
   printf("Número de Pontos Turísticos: %d\n", numero_de_pontos_Turísticos2);
-  printf("Dencidade Populacional da cidade 2: %2f hab/km² \n",Dencidade_Populacional2);
+  printf("Dencidade Populacional da cidade 2: %.2f hab/km² \n",Dencidade_Populacional2);
   printf("PIB per capita da cidade 2: %.2f reais \n", PIB_per_Capito2);
 
   // comparações entre as cartas
@@ -136,6 +136,6 @@ int main() {
   printf("PIB per capita: Carta %d venceu (%d)\n", resultadoPIBperCapita ? 1 : 2, resultadoPIBperCapita);
   printf("Super Poder: Carta %d venceu (%d)\n", resultadoSuperPoder ? 1 : 2, resultadoSuperPoder);
   
-  
+
 return 0;
 } 
