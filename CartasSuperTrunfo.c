@@ -136,5 +136,6 @@ int main() {
   printf("PIB per capita: Carta %d venceu (%d)\n", resultadoPIBperCapita ? 1 : 2, resultadoPIBperCapita);
   printf("Super Poder: Carta %d venceu (%d)\n", resultadoSuperPoder ? 1 : 2, resultadoSuperPoder);
   
+  
 return 0;
 } 
